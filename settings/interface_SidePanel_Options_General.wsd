@@ -1,0 +1,17 @@
+<WSPanel code="SidePanel_Options_General_Main" layout="BorderLayout">
+	
+	<WSScrollPane showLabel="true" code="SidePanel_Options_General_Label" position="CENTER" repository="false">
+		<WSPanel>
+			<WSPanel position="NORTH">
+				<WSPanel layout="GridLayout" position="NORTH" rows="1" columns="1" vertical-gap="6">
+					<WSOptionTextField code="Option_General_NumberOfRecentFiles" setting="NumberOfRecentFiles" />
+				</WSPanel>
+				<WSPanel layout="GridLayout" position="SOUTH" rows="2" columns="1">
+					<WSOptionCheckBox code="Option_General_DebugMode" setting="DebugMode" />
+					<WSOptionCheckBox code="Option_General_UpdateThumbnails" setting="UpdateThumbnails" />
+				</WSPanel>
+			</WSPanel>
+		</WSPanel>
+	</WSScrollPane>
+	
+</WSPanel>

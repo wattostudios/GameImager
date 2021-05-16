@@ -1,0 +1,752 @@
+<languagePack>
+	<name>English</name>
+	<version>2.01</version>
+	<author>
+		<name>WATTO</name>
+		<email>watto@watto.org</email>
+		<website>http://www.watto.org/trans</website>
+	</author>
+	
+	<texts>
+	
+	
+		<!-- REQUIRED -->
+		
+		
+		<lang code="ProgramName" value="Game Imager" />
+		<lang code="ProgramName_Free" value="Game Imager (Basic Version)" />
+		
+		<lang code="Welcome" value="Welcome to Game Imager!" />
+		
+		<lang code="PopupDialog_Error_Title" value="Error" />
+		<lang code="PopupDialog_Confirm_Title" value="Confirm" />
+		<lang code="PopupDialog_Message_Title" value="Message" />
+		<lang code="WSPopupDialogWrapLabel_ShowLanguagePackOutdatedError_Text" value="The language pack is out of date - please download a new one!" />
+		<lang code="PopupDialog_HidableCheckBox_Message" value="Show this message again?" />
+		
+		<lang code="WSButton_OK_Text" value="OK" />
+		<lang code="WSButton_OK_Text_Small" value="OK" />
+		<lang code="WSButton_OK_Tooltip" value="OK" />
+		<lang code="WSButton_Yes_Text" value="Yes" />
+		<lang code="WSButton_Yes_Text_Small" value="Yes" />
+		<lang code="WSButton_Yes_Tooltip" value="Yes" />
+		<lang code="WSButton_No_Text" value="No" />
+		<lang code="WSButton_No_Text_Small" value="No" />
+		<lang code="WSButton_No_Tooltip" value="No" />
+		
+		<lang code="WSSplashDialog_Plugins" value="Loading Plugins" />
+		<lang code="WSSplashDialog_ConstructInterface" value="Constructing Interface" />
+		
+		
+		<!-- WSProgressDialog -->
+		
+		
+		<lang code="WSButton_CloseProgress_Text" value="Close Popup" />
+
+
+		<!-- WSComboButton -->
+		
+		
+		<lang code="WSButton_WSComboButtonArrow_Text" value="" />
+		
+	
+		<!-- WSFontChooser -->
+		
+		
+		<lang code="WSCheckBox_FontAllCaps_Text" value="All Caps" />
+		<lang code="WSCheckBox_FontDoubleStrikethrough_Text" value="Double Strikethrough" />
+		<lang code="WSCheckBox_FontEmboss_Text" value="Emboss" />
+		<lang code="WSCheckBox_FontEngrave_Text" value="Engrave" />
+		<lang code="WSCheckBox_FontHidden_Text" value="Hidden" />
+		<lang code="WSCheckBox_FontOutline_Text" value="Outline" />
+		<lang code="WSCheckBox_FontShadow_Text" value="Shadow" />
+		<lang code="WSCheckBox_FontSmallCaps_Text" value="Small Caps" />
+		<lang code="WSCheckBox_FontStrikethrough_Text" value="Strikethrough" />
+		<lang code="WSCheckBox_FontSubscript_Text" value="Subscript" />
+		<lang code="WSCheckBox_FontSuperscript_Text" value="Superscript" />
+		<lang code="WSLabel_FontColorLabel_Text" value="Color" />
+		<lang code="WSLabel_FontNameLabel_Text" value="Font" />
+		<lang code="WSLabel_FontPreview_Text" value="Font Style Preview" />
+		<lang code="WSLabel_FontSizeLabel_Text" value="Size" />
+		<lang code="WSLabel_FontStyleLabel_Text" value="Style" />
+		<lang code="WSLabel_FontUnderlineColorLabel_Text" value="Underline Color" />
+		<lang code="WSLabel_FontUnderlineStyleLabel_Text" value="Underline Style" />
+		<lang code="WSFontChooser_FontStyle_Bold" value="Bold" />
+		<lang code="WSFontChooser_FontStyle_BoldItalic" value="Bold Italic" />
+		<lang code="WSFontChooser_FontStyle_Italic" value="Italic" />
+		<lang code="WSFontChooser_FontStyle_Plain" value="Regular" />
+		<lang code="WSFontChooser_FontStyle_Bold Italic" value="Bold Italic" />
+		
+		
+		<!-- WSSmallColorChooser -->
+		
+
+		<lang code="WSButton_ColorMoreColors_Text" value="More Colors..." />
+		
+		<lang code="WSColorChooser_Color_0,0,0" value="Black" />
+		<lang code="WSColorChooser_Color_128,0,0" value="Dark Red" />
+		<lang code="WSColorChooser_Color_255,0,0" value="Red" />
+		<lang code="WSColorChooser_Color_255,0,255" value="Magenta" />
+		<lang code="WSColorChooser_Color_255,153,204" value="Pink" />
+		<lang code="WSColorChooser_Color_153,51,0" value="Dark Orange" />
+		<lang code="WSColorChooser_Color_255,102,0" value="Orange" />
+		<lang code="WSColorChooser_Color_255,153,0" value="Light Orange" />
+		<lang code="WSColorChooser_Color_255,204,0" value="Peach" />
+		<lang code="WSColorChooser_Color_255,204,153" value="Apricot" />
+		<lang code="WSColorChooser_Color_51,51,0" value="Dark Olive" />
+		<lang code="WSColorChooser_Color_128,128,0" value="Olive" />
+		<lang code="WSColorChooser_Color_153,204,0" value="Light Olive" />
+		<lang code="WSColorChooser_Color_255,255,0" value="Yellow" />
+		<lang code="WSColorChooser_Color_255,255,153" value="Light Yellow" />
+		<lang code="WSColorChooser_Color_0,51,0" value="Dark Aqua" />
+		<lang code="WSColorChooser_Color_0,128,0" value="Dark Green" />
+		<lang code="WSColorChooser_Color_51,153,102" value="Aqua" />
+		<lang code="WSColorChooser_Color_0,255,0" value="Green" />
+		<lang code="WSColorChooser_Color_204,255,204" value="Light Green" />
+		<lang code="WSColorChooser_Color_0,51,102" value="Dark Ocean" />
+		<lang code="WSColorChooser_Color_0,128,128" value="Ocean" />
+		<lang code="WSColorChooser_Color_51,204,204" value="Light Ocean" />
+		<lang code="WSColorChooser_Color_0,255,255" value="Cyan" />
+		<lang code="WSColorChooser_Color_204,255,255" value="Light Cyan" />
+		<lang code="WSColorChooser_Color_0,0,128" value="Dark Blue" />
+		<lang code="WSColorChooser_Color_0,0,255" value="Blue" />
+		<lang code="WSColorChooser_Color_51,102,255" value="Light Blue" />
+		<lang code="WSColorChooser_Color_0,204,255" value="Sky" />
+		<lang code="WSColorChooser_Color_153,204,255" value="Light Sky" />
+		<lang code="WSColorChooser_Color_51,51,153" value="Violet" />
+		<lang code="WSColorChooser_Color_102,102,153" value="Light Violet" />
+		<lang code="WSColorChooser_Color_128,0,128" value="Purple" />
+		<lang code="WSColorChooser_Color_153,51,102" value="Maroon" />
+		<lang code="WSColorChooser_Color_204,153,255" value="Light Purple" />
+		<lang code="WSColorChooser_Color_51,51,51" value="Night Gray" />
+		<lang code="WSColorChooser_Color_128,128,128" value="Dark Gray" />
+		<lang code="WSColorChooser_Color_153,153,153" value="Gray" />
+		<lang code="WSColorChooser_Color_192,192,192" value="Light Gray" />
+		<lang code="WSColorChooser_Color_255,255,255" value="White" />
+		
+		<lang code="WSButton_ColorChooserClosePopup_Text" value="Change Color" />
+		<lang code="WSLabel_ColorInfoPanelName_Text" value="" />
+
+		
+		<!-- WSMonthCalendar -->
+		
+		
+		<lang code="WSButton_NextMonth_Text" value=">" />
+		<lang code="WSButton_PreviousMonth_Text" value="<" />
+		
+		<lang code="WSButton_NextYear_Text" value=">>" />
+		<lang code="WSButton_PreviousYear_Text" value="<<" />
+		
+		<lang code="WSLabel_MondayHeaderSmall_Text" value="M" />
+		<lang code="WSLabel_TuesdayHeaderSmall_Text" value="T" />
+		<lang code="WSLabel_WednesdayHeaderSmall_Text" value="W" />
+		<lang code="WSLabel_ThursdayHeaderSmall_Text" value="T" />
+		<lang code="WSLabel_FridayHeaderSmall_Text" value="F" />
+		<lang code="WSLabel_SaturdayHeaderSmall_Text" value="S" />
+		<lang code="WSLabel_SundayHeaderSmall_Text" value="S" />
+		
+		<lang code="MonthJanuary" value="January" />
+		<lang code="MonthFebruary" value="February" />
+		<lang code="MonthMarch" value="March" />
+		<lang code="MonthApril" value="April" />
+		<lang code="MonthMay" value="May" />
+		<lang code="MonthJune" value="June" />
+		<lang code="MonthJuly" value="July" />
+		<lang code="MonthAugust" value="August" />
+		<lang code="MonthSeptember" value="September" />
+		<lang code="MonthOctober" value="October" />
+		<lang code="MonthNovember" value="November" />
+		<lang code="MonthDecember" value="December" />
+		
+		
+		<!-- WSGradientColorChooser -->
+		
+		
+		<lang code="WSTextField_GradientColorChooserBlueValue_Label" value="Blue" />
+		<lang code="WSTextField_GradientColorChooserGreenValue_Label" value="Green" />
+		<lang code="WSTextField_GradientColorChooserRedValue_Label" value="Red" />
+		<lang code="WSTextField_GradientColorChooserHexValue_Label" value="Hex" />
+		
+		
+		<!-- CUSTOM -->
+		
+		<lang code="" value="" />
+		
+		<lang code="AllFiles" value="All Files" />
+		<lang code="ColorConverter_Grayscale" value="Grayscale" />
+		<lang code="ColorConverter_Indexed" value="Indexed" />
+		<lang code="ColorConverter_Monochrome" value="Monochrome" />
+		<lang code="ColorConverter_True_24" value="True Color (24 bit)" />
+		<lang code="ColorConverter_True_32" value="True Color (32 bit)" />
+		<lang code="Description_ArchivePlugin" value="An Image Plugin is able to read and write Collections." />
+		<lang code="Description_DefaultExtensions" value="The extensions handled by this plugin are: " />
+		<lang code="Description_DefaultGames" value="The games that this plugin is used for are: " />
+		<lang code="Description_DefaultPlatforms" value="The platforms that this plugin can analyze are: " />
+		<lang code="Description_DirectoryListPanel" value="Directory Lists are the way that files and directories are presented to the user, to allow the finding and choosing of files." />
+		<lang code="Description_FileListPanel" value="Image Lists are the way that images in a Collection are displayed." />
+		<lang code="Description_MultipleImagesAllowed" value="Multiple images can be stored in this Collection." />
+		<lang code="Description_MultipleImagesNotAllowed" value="Only a single image can be stored in this Collection." />
+		<lang code="Description_NoDefaultExtensions" value="There are no default extensions handled by this plugin." />
+		<lang code="Description_NoDefaultGames" value="There are no default games handled by this plugin." />
+		<lang code="Description_NoDefaultPlatforms" value="There are no default platforms handled by this plugin." />
+		<lang code="Description_OptionsPlugin" value="Option Groups are plugins that contain a group of settings that can be configured." />
+		<lang code="Description_PluginDisabled" value="This plugin is disabled." />
+		<lang code="Description_PluginEnabled" value="This plugin is enabled." />
+		<lang code="Description_ReadOperation" value="Reading" />
+		<lang code="Description_SidePanel" value="Side Panels are the panels that appear on the right of Game Imager, and control the tasks that can be performed." />
+		<lang code="Description_SupportedOperations" value="The following operations are supported: " />
+		<lang code="Description_WriteOperation" value="Saving" />
+		<lang code="Extension" value="Extension" />
+		<lang code="Game" value="Game" />
+		<lang code="Image" value="Image" />
+		<lang code="Information_AllowedFunctions" value="Operations" />
+		<lang code="Information_AllowsMultipleImages" value="Allow Multiple Images" />
+		<lang code="Information_BasePath" value="Base Path" />
+		<lang code="Information_Bit" value="Bit" />
+		<lang code="Information_ColorDepth" value="Color Depth" />
+		<lang code="Information_Height" value="Height" />
+		<lang code="Information_NumColors" value="Number Of Colors" />
+		<lang code="Information_NumFiles" value="Number of Images" />
+		<lang code="Information_NumSelectedFiles" value="Number Selected" />
+		<lang code="Information_NumberOfFiles" value="Number of Images" />
+		<lang code="Information_Pixels" value="Pixels" />
+		<lang code="Information_PluginClass" value="Plugin Type" />
+		<lang code="Information_PluginName" value="Plugin Name" />
+		<lang code="Information_SupportedExtensions" value="Extensions" />
+		<lang code="Information_SupportedGames" value="Games" />
+		<lang code="Information_SupportedPlatforms" value="Platforms" />
+		<lang code="Information_Width" value="Width" />
+		<lang code="Name" value="Plugin Name" />
+		<lang code="Options_Appearance_SidePanel_Options_Appearance_Main_Text" value="Appearance" />
+		<lang code="Options_Directories_SidePanel_Options_Directories_Main_Text" value="Directories" />
+		<lang code="Options_General_SidePanel_Options_General_Main_Text" value="General" />
+		<lang code="Options_OpeningArchives_SidePanel_Options_OpeningArchives_Main_Text" value="Opening Images" />
+		<lang code="Options_Popups_SidePanel_Options_Popups_Main_Text" value="Popups" />
+		<lang code="Options_PreviewingFiles_SidePanel_Options_PreviewingFiles_Main_Text" value="Previewing Images" />
+		<lang code="Options_ToolbarButtons_SidePanel_Options_ToolbarButtons_Main_Text" value="Toolbar Buttons" />
+		<lang code="Plugin_Archive_Name" value="Images" />
+		<lang code="Plugin_DirectoryList_Name" value="Directory Lists" />
+		<lang code="Plugin_FileList_Name" value="Image Lists" />
+		<lang code="Plugin_OptionGroup_Name" value="Option Groups" />
+		<lang code="Plugin_SidePanel_Name" value="Side Panels" />
+		<lang code="Progress_AddingFiles" value="Adding Images" />
+		<lang code="Progress_AddingFiles_Undo" value="Removing the Added Images" />
+		<lang code="Progress_ConvertingColors" value="Converting Colors" />
+		<lang code="Progress_ConvertingColors_Undo" value="Reverting Colors" />
+		<lang code="Progress_ExportingFiles" value="Saving Images" />
+		<lang code="Progress_PleaseWait" value="Please Wait" />
+		<lang code="Progress_ReadingArchive" value="Reading Collection" />
+		<lang code="Progress_RemovingFiles" value="Removing Images" />
+		<lang code="Progress_RemovingFiles_Undo" value="Adding the Removed Images" />
+		<lang code="Progress_ReplacingFiles" value="Replacing Images" />
+		<lang code="Progress_ReplacingFiles_Undo" value="Reversing the Replaced Images" />
+		<lang code="Progress_WritingArchive" value="Saving The Collection" />
+		<lang code="Progress_WritingFiles" value="Saving Images" />
+		<lang code="Task_AddFiles" value="&number& Images Added" />
+		<lang code="Task_ColorConverter" value="Image converted to &format&" />
+		<lang code="Task_RemoveFiles" value="&number& Images Removed" />
+		<lang code="Task_ReplaceSelectedFiles" value="&number& Images Replaced" />
+		<lang code="Thumbnail" value="Thumbnail" />
+		<lang code="WSButton_About_Text" value="About" />
+		<lang code="WSButton_About_Tooltip" value="About Game Imager and its author." />
+		<lang code="WSButton_AddResources_Text" value="Add Images" />
+		<lang code="WSButton_AddResources_Tooltip" value="Add images from your computer into the Collection." />
+		<lang code="WSButton_Choose_Text" value="Choose" />
+		<lang code="WSButton_Choose_Tooltip" value="Choose..." />
+		<lang code="WSButton_CloseProgram_Text" value="Close Program" />
+		<lang code="WSButton_CloseProgram_Tooltip" value="Closes Game Imager." />
+		<lang code="WSButton_ColorChanger_Tooltip" value="Shows the SidePanel for displaying and changing colors in the image." />
+		<lang code="WSButton_ColorChooserClosePopup_Tooltip" value="Change the color" />
+		<lang code="WSButton_Colors_Tooltip" value="Shows the SidePanel that displays the colors in the image" />
+		<lang code="WSButton_ComboArrowButton_Text" value="" />
+		<lang code="WSButton_ComboArrowButton_Tooltip" value="Choose..." />
+		<lang code="WSButton_CurrentFont_Text" value="Choose" />
+		<lang code="WSButton_CurrentFont_Tooltip" value="The font used by the program." />
+		<lang code="WSButton_ExtractResources_Tooltip" value="Save images to your computer." />
+		<lang code="WSButton_ExtractSelectedResources_Tooltip" value="Shows the SidePanel for extracting images from the Collection to your computer." />
+		<lang code="WSButton_FileListView_Text" value="Image List View" />
+		<lang code="WSButton_FileListView_Tooltip" value="Changes the way images are displayed in a Collection." />
+		<lang code="WSButton_FontChooserClosePopup_Text" value="Change Font" />
+		<lang code="WSButton_Help_Text" value="Help" />
+		<lang code="WSButton_Help_Tooltip" value="Displays the help documents." />
+		<lang code="WSButton_Information_Text" value="Information" />
+		<lang code="WSButton_Information_Tooltip" value="Shows information about the current Collection and its images." />
+		<lang code="WSButton_NewArchive_Text" value="New Collection" />
+		<lang code="WSButton_NewArchive_Tooltip" value="Creates a new empty Collection" />
+		<lang code="WSButton_Option_ToolbarButtons_AddButton_Small" value="Add \/" />
+		<lang code="WSButton_Option_ToolbarButtons_AddButton_Text" value="Add To Toolbar \/" />
+		<lang code="WSButton_Option_ToolbarButtons_AddButton_Tooltip" value="Add the selected button to the toolbar." />
+		<lang code="WSButton_Option_ToolbarButtons_MoveDown_Text" value="Move Button Down" />
+		<lang code="WSButton_Option_ToolbarButtons_MoveDown_Tooltip" value="Move the selected button down (Swap the with the button below it)." />
+		<lang code="WSButton_Option_ToolbarButtons_MoveUp_Text" value="Move Button Up" />
+		<lang code="WSButton_Option_ToolbarButtons_MoveUp_Tooltip" value="Move the selected button up (Swap the with the button above it)." />
+		<lang code="WSButton_Option_ToolbarButtons_RemoveButton_Small" value="Remove /\" />
+		<lang code="WSButton_Option_ToolbarButtons_RemoveButton_Text" value="Remove From Toolbar /\" />
+		<lang code="WSButton_Option_ToolbarButtons_RemoveButton_Tooltip" value="Remove the selected button from the toolbar." />
+		<lang code="WSButton_Options_Text" value="Options" />
+		<lang code="WSButton_Options_Tooltip" value="Change the way Game Imager works and looks." />
+		<lang code="WSButton_Palette_Tooltip" value="Displays the colors in the image" />
+		<lang code="WSButton_ParentDirectory_Tooltip" value="Change to the previous (parent) directory." />
+		<lang code="WSButton_PluginList_Text" value="Plugin List" />
+		<lang code="WSButton_PluginList_Tooltip" value="Displays a list of the loaded plugins." />
+		<lang code="WSButton_ReadArchive_Normal_Text" value="Open Collection or Image" />
+		<lang code="WSButton_ReadArchive_Normal_Tooltip" value="Opens a Collection on your computer." />
+		<lang code="WSButton_RedoComboButton_Tooltip" value="Re-applies a change that was undone." /
+		<lang code="WSButton_RemoveResources_Text" value="Remove Images" />
+		<lang code="WSButton_RemoveResources_Tooltip" value="Removes the selected images from the Collection." />
+		<lang code="WSButton_ReplaceResources_Text" value="Replace Images" />
+		<lang code="WSButton_ReplaceResources_Tooltip" value="Replaces images in the Collection with images on your computer." />
+		<lang code="WSButton_SelectResources_All_Text" value="Select All" />
+		<lang code="WSButton_SelectResources_All_Tooltip" value="Select images in the Collection." />
+		<lang code="WSButton_Separator_Tooltip" value="Provides a spacer between buttons on the toolbar." />
+		<lang code="WSButton_SidePanel_Colors_ChangeColor_Text" value="Change Color" />
+		<lang code="WSButton_SidePanel_Colors_ChangeColor_Tooltip" value="Changes the selected color." />
+		<lang code="WSButton_SidePanel_DirectoryList_AddFileButton_Tooltip" value="Add the images to the Collection." />
+		<lang code="WSButton_SidePanel_DirectoryList_ConvertArchiveButton_Tooltip" value="Save the Collection in the chosen format." />
+		<lang code="WSButton_SidePanel_DirectoryList_ConvertPanelButton_Tooltip" value="Displays the Convert Image controls." />
+		<lang code="WSButton_SidePanel_DirectoryList_ExportAllButton_Tooltip" value="Saves all the images from the Collection to your computer." />
+		<lang code="WSButton_SidePanel_DirectoryList_ExportPanelButton_Tooltip" value="Shows the Extract Images controls" />
+		<lang code="WSButton_SidePanel_DirectoryList_ExportSelectedButton_Tooltip" value="Saves the selected images from the Collection to your computer." />
+		<lang code="WSButton_SidePanel_DirectoryList_ExtractAllResourcesButton_Tooltip" value="Saves all the images to your computer as separate files." />
+		<lang code="WSButton_SidePanel_DirectoryList_ExtractResourcesButton_Tooltip" value="Saves the selected images to your computer as separate files." />
+		<lang code="WSButton_SidePanel_DirectoryList_ModifyPanelButton_Tooltip" value="Displays the Modify Image controls." />
+		<lang code="WSButton_SidePanel_DirectoryList_PalettePanelButton_Tooltip" value="Displays the SidePanel for importing and exporting color palettes." />
+		<lang code="WSButton_SidePanel_DirectoryList_ReadArchiveButton_Tooltip" value="Open the selected Collection or Image." />
+		<lang code="WSButton_SidePanel_DirectoryList_ReadPalette_DirectButton_Tooltip" value="Reads a palette file and changes the colors based on their palette index." />
+		<lang code="WSButton_SidePanel_DirectoryList_ReadPalette_MatchingButton_Tooltip" value="Reads a palette file and changes the colors based on their closest match." />
+		<lang code="WSButton_SidePanel_DirectoryList_ReadPanelButton_Tooltip" value="Displays the Open Image controls." />
+		<lang code="WSButton_SidePanel_DirectoryList_RemoveFileButton_Tooltip" value="Removes the images from the Collection." />
+		<lang code="WSButton_SidePanel_DirectoryList_ReplaceFileSelectedButton_Tooltip" value="Replace the selected images in the Collection with a image on the computer." />
+		<lang code="WSButton_SidePanel_DirectoryList_WriteArchiveButton_Tooltip" value="Save the Collection." />
+		<lang code="WSButton_SidePanel_DirectoryList_WritePaletteButton_Tooltip" value="Saves the color palette to a file." />
+		<lang code="WSButton_SidePanel_DirectoryList_WritePanelButton_Tooltip" value="Displays the Save Image controls" />
+		<lang code="WSButton_SidePanel_Options_SaveOptionsButton_Text" value="Save Options" />
+		<lang code="WSButton_SidePanel_Options_SaveOptionsButton_Tooltip" value="Saves the options." />
+		<lang code="WSButton_UndoComboButton_Tooltip" value="Reverses a change made to the image." />
+		<lang code="WSButton_WriteArchive_Text" value="Save Collection" />
+		<lang code="WSButton_WriteArchive_Tooltip" value="Saves the Collection to your computer." />
+		<lang code="WSButton_Zoom_100_Tooltip" value="Reset the zoom to 100%" />
+		<lang code="WSCheckBox_AllowColorConversionUndo_Text" value="Allow color conversions to be undone" />
+		<lang code="WSCheckBox_AllowColorConversionUndo_Tooltip" value="Remembering the color conversion data (ticked) of large images requires a lot of memory and may crash the program." />
+		<lang code="WSCheckBox_AlwaysShowThumbnails_Text" value="Always show thumbnails" />
+		<lang code="WSCheckBox_AlwaysShowThumbnails_Tooltip" value="Always show thumbnails of the images in the Collection (ticked), or only when a Collection contains multiple images (unticked)." />
+		<lang code="WSCheckBox_DebugMode_Text" value="Debug mode" />
+		<lang code="WSCheckBox_DebugMode_Tooltip" value="Writes all error messages to the screen (ticked), or only to the error log file (unticked)." />
+		<lang code="WSCheckBox_LargeButtonIcons_Text" value="Large buttons (requires restart)" />
+		<lang code="WSCheckBox_LargeButtonIcons_Tooltip" value="Buttons have large (ticked) or small (unticked) images." />
+		<lang code="WSCheckBox_OpenArchiveOnDoubleClick_Text" value="Open Collection on double-click" />
+		<lang code="WSCheckBox_OpenArchiveOnDoubleClick_Tooltip" value="When double-clicking on a Collection in the directory list, it will be opened." />
+		<lang code="WSCheckBox_Popup_AddFiles_FilesAdded_Show_Text" value="Images Added" />
+		<lang code="WSCheckBox_Popup_AddFiles_FilesAdded_Show_Tooltip" value="Show a popup message when images are added to the Collection." />
+		<lang code="WSCheckBox_Popup_AddFiles_NoFilesToAdd_Show_Text" value="No Image Files Selected to Add" />
+		<lang code="WSCheckBox_Popup_AddFiles_NoFilesToAdd_Show_Tooltip" value="Show a popup message when there were no image files selected to add to the Collection." />
+		<lang code="WSCheckBox_Popup_ExportFiles_ArchiveSaved_Show_Text" value="Images Saved" />
+		<lang code="WSCheckBox_Popup_ExportFiles_ArchiveSaved_Show_Tooltip" value="Show a popup message when the Images in the Collection have been saved." />
+		<lang code="WSCheckBox_Popup_FileListViewChanged_Show_Text" value="Image List View Changed" />
+		<lang code="WSCheckBox_Popup_FileListViewChanged_Show_Tooltip" value="Show a popup message when you change the ImageList view." />
+		<lang code="WSCheckBox_Popup_FullVersionOnly_Show_Text" value="Full Version Only" />
+		<lang code="WSCheckBox_Popup_FullVersionOnly_Show_Tooltip" value="Show a popup message when a task is only available in the Full Version." />
+		<lang code="WSCheckBox_Popup_ModifyArchive_NotWritable_Show_Text" value="Not Allowed to Add/Remove Images" />
+		<lang code="WSCheckBox_Popup_ModifyArchive_NotWritable_Show_Tooltip" value="Show a popup message when Images can not be added or removed from this Collection format." />
+		<lang code="WSCheckBox_Popup_Options_OptionsSaved_Show_Text" value="Options Saved" />
+		<lang code="WSCheckBox_Popup_Options_OptionsSaved_Show_Tooltip" value="Show a popup message when the options have been saved." />
+		<lang code="WSCheckBox_Popup_ReadArchive_FileDoesNotExist_Show_Text" value="File Does Not Exist" />
+		<lang code="WSCheckBox_Popup_ReadArchive_FileDoesNotExist_Show_Tooltip" value="No image file exists with the given name, when opening a Collection" />
+		<lang code="WSCheckBox_Popup_ReadArchive_FileNotAnArchive_Show_Text" value="File is Not an Image or Collection" />
+		<lang code="WSCheckBox_Popup_ReadArchive_FileNotAnArchive_Show_Tooltip" value="Show a popup message when a file cannot be opened because it is not an Image or Collection." />
+		<lang code="WSCheckBox_Popup_ReadArchive_MakeNewArchive_Show_Text" value="New Collection Created" />
+		<lang code="WSCheckBox_Popup_ReadArchive_MakeNewArchive_Show_Tooltip" value="Show a popup message when a new collection is created." />
+		<lang code="WSCheckBox_Popup_ReadArchive_NoPluginsFound_Show_Text" value="No Plugin To Open Image" />
+		<lang code="WSCheckBox_Popup_ReadArchive_NoPluginsFound_Show_Tooltip" value="Show a popup message when Game Imager was unable to open an Image or Collection." />
+		<lang code="WSCheckBox_Popup_ReadArchive_ReadFailed_Show_Text" value="Opening Collection Failed" />
+		<lang code="WSCheckBox_Popup_ReadArchive_ReadFailed_Show_Tooltip" value="There was a problem when opening a Collection." />
+		<lang code="WSCheckBox_Popup_ReadArchive_ReadSucceeded_Show_Text" value="Opening Collection Succeeded" />
+		<lang code="WSCheckBox_Popup_ReadArchive_ReadSucceeded_Show_Tooltip" value="The Collection was successfully opened." />
+		<lang code="WSCheckBox_Popup_ReadArchive_ReadWithPluginFailed_Show_Text" value="Open Image with Plugin Failed" />
+		<lang code="WSCheckBox_Popup_ReadArchive_ReadWithPluginFailed_Show_Tooltip" value="Show a popup message when an Image file couldn't be opened with a given plugin." />
+		<lang code="WSCheckBox_Popup_ReadArchive_ReadWithPluginSucceeded_Show_Text" value="Opening Collection With Plugin Succeeded" />
+		<lang code="WSCheckBox_Popup_ReadArchive_ReadWithPluginSucceeded_Show_Tooltip" value="The Collection was successfully opened." />
+		<lang code="WSCheckBox_Popup_RemoveFiles_FilesRemoved_Show_Text" value="Images Removed" />
+		<lang code="WSCheckBox_Popup_RemoveFiles_FilesRemoved_Show_Tooltip" value="Show a popup message when Images have been removed from the Collection." />
+		<lang code="WSCheckBox_Popup_RemoveFiles_NoFilesToRemove_Show_Text" value="No Images Selected to Remove" />
+		<lang code="WSCheckBox_Popup_RemoveFiles_NoFilesToRemove_Show_Tooltip" value="Show a popup message when there were no Images selected to remove from the Collection." />
+		<lang code="WSCheckBox_Popup_SelectResources_All_Show_Text" value="Selected All Images" />
+		<lang code="WSCheckBox_Popup_SelectResources_All_Show_Tooltip" value="Show a popup message when all Images in the Collection have been selected." />
+		<lang code="WSCheckBox_Popup_SelectResources_Inverse_Show_Text" value="Selected Inverse Images" />
+		<lang code="WSCheckBox_Popup_SelectResources_Inverse_Show_Tooltip" value="Show a popup message when the inverse Images in the Collection have been selected." />
+		<lang code="WSCheckBox_Popup_SelectResources_None_Show_Text" value="Selected No Images" />
+		<lang code="WSCheckBox_Popup_SelectResources_None_Show_Tooltip" value="Show a popup message when all the Images in the Collection have been deselected." />
+		<lang code="WSCheckBox_Popup_SidePanelChanged_Show_Text" value="Side Panel Changed" />
+		<lang code="WSCheckBox_Popup_SidePanelChanged_Show_Tooltip" value="Show a popup message when the SidePanel is changed." />
+		<lang code="WSCheckBox_Popup_WriteArchive_ArchiveSaved_Show_Text" value="Collection Saved" />
+		<lang code="WSCheckBox_Popup_WriteArchive_ArchiveSaved_Show_Tooltip" value="Show a popup message when a Collection has been saved." />
+		<lang code="WSCheckBox_Popup_WriteArchive_FilenameMissing_Show_Text" value="No Filename for Saving" />
+		<lang code="WSCheckBox_Popup_WriteArchive_FilenameMissing_Show_Tooltip" value="Show a popup message when there is no filename given for the saved Collection." />
+		<lang code="WSCheckBox_ShowSplashScreen_Text" value="Show splash screen on startup" />
+		<lang code="WSCheckBox_ShowSplashScreen_Tooltip" value="Show the splash screen when loading the program." />
+		<lang code="WSCheckBox_PaintTransparentGrid_Text" value="Show transparency grid" />
+		<lang code="WSCheckBox_PaintTransparentGrid_Tooltip" value="Paint a grid behind transparent images (ticked) or only paint white (unticked)" />
+		<lang code="WSCheckBox_ShowSystemSpecificIcons_Text" value="Show proper icons for files (slower)" />
+		<lang code="WSCheckBox_ShowSystemSpecificIcons_Tooltip" value="If ticked, the icons for each file will be displayed the same as in Windows. However, this can sometimes be slow. Unticking will show the files with basic icons." />
+		<lang code="WSCheckBox_UpdateThumbnails_Text" value="Update thumbnails when changes occur" />
+		<lang code="WSCheckBox_UpdateThumbnails_Tooltip" value="When a change occurs, such as changing the colors in an image, update the thumbnail (ticked) or not (unticked)." />
+		<lang code="WSColorPanel_SidePanel_Colors_CurrentColor_Tooltip" value="The currently selected color." />
+		<lang code="WSComboBox_CurrentLanguage_Tooltip" value="The language to use for the interface." />
+		<lang code="WSComboBox_PluginListDisplayType_Tooltip" value="How should the plugins be displayed in the dropdown boxes?" />
+		<lang code="WSComboBox_SidePanel_Colors_ColorTypes_Tooltip" value="The color type of the image." />
+		<lang code="WSComboBox_SidePanel_DirectoryList_ConvertPluginList_Tooltip" value="The format to use when converting a Collection." />
+		<lang code="WSComboBox_SidePanel_DirectoryList_ExportPluginList_Tooltip" value="The format for the extracted images." />
+		<lang code="WSComboBox_SidePanel_DirectoryList_PalettePluginList_Tooltip" value="The list of plugins to read and write palettes." />
+		<lang code="WSComboBox_SidePanel_DirectoryList_ReadPluginList_Tooltip" value="The plugin to use when reading a Collection, or choose 'All Files' and Game Imager will pick the best plugin." />
+		<lang code="WSComboBox_SidePanel_DirectoryList_WritePluginList_Tooltip" value="The list of plugins to save Collections." />
+		<lang code="WSComboBox_SidePanel_Options_OptionGroups_Tooltip" value="The different groups of options that can be changed." />
+		<lang code="WSComboBox_SidePanel_PluginList_PluginTypes_Tooltip" value="The type of plugin to display." />
+		<lang code="WSDirectoryListHolder_SidePanel_DirectoryList_DirectoryListHolder_Tooltip" value="The DirectoryList, which displays the files on the computer." />
+		<lang code="WSFileListPanelHolder_FileListPanelHolder_Tooltip" value="The ImageList, which displays all the images in a Collection." />
+		<lang code="WSGradientColorPanel_GradientColorPanel_Tooltip" value="Displays a range of colors based on the main selected color." />
+		<lang code="WSGradientColorSlider_GradientColorSlider_Tooltip" value="Displays the main color values." />
+		<lang code="WSLabel_AddFiles_FilesAdded_Text" value="The images were added to the Collection." />
+		<lang code="WSLabel_AddFiles_NoFilesToAdd_Text" value="No image files have been selected to add to the Collection." />
+		<lang code="WSLabel_ColorConverter_Converted_Text" value="The colors were converted successfully." />
+		<lang code="WSLabel_ColorConverter_Reverted_Text" value="The colors were reverted successfully." />
+		<lang code="WSLabel_ComponentList_About_Text" value="About Game Imager" />
+		<lang code="WSLabel_ComponentList_AddResources_Text" value="Add Images" />
+		<lang code="WSLabel_ComponentList_CloseProgram_Text" value="Close Game Imager" />
+		<lang code="WSLabel_ComponentList_ExtractSelectedResources_Text" value="Extract Images" />
+		<lang code="WSLabel_ComponentList_FileListView_Text" value="Change Image List View" />
+		<lang code="WSLabel_ComponentList_Help_Text" value="Game Imager Help" />
+		<lang code="WSLabel_ComponentList_Information_Text" value="Image Information" />
+		<lang code="WSLabel_ComponentList_NewArchive_Text" value="New Collection" />
+		<lang code="WSLabel_ComponentList_Options_Text" value="Options" />
+		<lang code="WSLabel_ComponentList_PluginList_Text" value="Plugin List" />
+		<lang code="WSLabel_ComponentList_ReadArchive_Normal_Text" value="Open Collection or Image" />
+		<lang code="WSLabel_ComponentList_RedoComboButton_Text" value="Redo Change" />
+		<lang code="WSLabel_ComponentList_RemoveResources_Text" value="Remove Images" />
+		<lang code="WSLabel_ComponentList_ReplaceResources_Text" value="Replace Images" />
+		<lang code="WSLabel_ComponentList_SelectResources_All_Text" value="Select Images" />
+		<lang code="WSLabel_ComponentList_Separator_Text" value="Separator" />
+		<lang code="WSLabel_ComponentList_UndoComboButton_Text" value="Undo Change" />
+		<lang code="WSLabel_ComponentList_WriteArchive_Text" value="Save Collection" />
+		<lang code="WSLabel_ExportFiles_ArchiveSaved_Text" value="The Images were saved successfully." />
+		<lang code="WSLabel_ExportFiles_FilesExported_Text" value="The images were saved." />
+		<lang code="WSLabel_FileListViewChanged_Text" value="The file list view has been changed." />
+		<lang code="WSLabel_FullVersionOnly_Text" value="This feature is only available in the Full Version of Game Imager." />
+		<lang code="WSLabel_ModifyArchive_NotWritable_Text" value="This Collection format does not allow Images to be added or removed." />
+		<lang code="WSLabel_NoPreview_Text" value="No Preview Loaded." />
+		<lang code="WSLabel_NoPreview_Tooltip" value="There is no image being previewed, or the image had an error when trying to display it." />
+		<lang code="WSLabel_Options_OptionsSaved_Text" value="The options were saved." />
+		<lang code="WSLabel_ReadArchive_FileDoesNotExist_Text" value="The file with the given name does not exist." />
+		<lang code="WSLabel_ReadArchive_FileNotAnArchive_Text" value="The selected file is not an Image or Collection." />
+		<lang code="WSLabel_ReadArchive_MakeNewArchive_Text" value="A new collection has been created." />
+		<lang code="WSLabel_ReadArchive_NoPluginsFound_Text" value="No plugins were able to open the Image" />
+		<lang code="WSLabel_ReadArchive_ReadFailed_Text" value="The Collection could not be opened." />
+		<lang code="WSLabel_ReadArchive_ReadSucceeded_Text" value="Collection opened successfully." />
+		<lang code="WSLabel_ReadArchive_ReadWithPluginFailed_Text" value="The selected plugin was not able to open the Image." />
+		<lang code="WSLabel_ReadArchive_ReadWithPluginSucceeded_Text" value="Collection opened successfully." />
+		<lang code="WSLabel_RemoveFiles_FilesRemoved_Text" value="The images were removed from the Collection." />
+		<lang code="WSLabel_RemoveFiles_NoFilesToRemove_Text" value="No images were selected to remove." />
+		<lang code="WSLabel_ReplaceFiles_FilesReplaced_Text" value="The images were replaced." />
+		<lang code="WSLabel_ReplaceFiles_FilesRestored_Text" value="The replaced images were changed back to their original data." />
+		<lang code="WSLabel_SaveChanges_Text" value="The Collection was modified. Do you want to save the changes?" />
+		<lang code="WSLabel_SelectResources_All_Text" value="All the Images in the Collection are selected." />
+		<lang code="WSLabel_SelectResources_Inverse_Text" value="The Images in the Collection have been inversely selected." />
+		<lang code="WSLabel_SelectResources_None_Text" value="All the Images in the Collection have been unselected." />
+		<lang code="WSLabel_SidePanelChanged_Text" value="The side panel was changed." />
+		<lang code="WSLabel_SidePanel_DirectoryList_InvalidControls_Text" value="The current Collection can not be modified or saved." />
+		<lang code="WSLabel_WriteArchive_ArchiveSaved_Text" value="The Collection was saved successfully." />
+		<lang code="WSLabel_WriteArchive_FilenameMissing_Text" value="You must specify a filename for the saved Collection." />
+		<lang code="WSList_DirectoryList_Tooltip" value="The Directory List, which displays the files on the computer." />
+		<lang code="WSList_FileList_Tooltip" value="The images in a Collection are displayed in this panel." />
+		<lang code="WSList_Option_ToolbarButtons_ChoicesList_Tooltip" value="Lists the buttons that can be added to the toolbar." />
+		<lang code="WSList_Option_ToolbarButtons_CurrentList_Tooltip" value="Lists the buttons that already exist on the toolbar." />
+		<lang code="WSList_SidePanel_PluginList_Plugins_Tooltip" value="The loaded plugins of the chosen type are displayed here." />
+		<lang code="WSMenuBar_MainMenuBar_Tooltip" value="The main menu, listing all common tasks." />
+		<lang code="WSMenuItem_About_Text" value="About Game Imager" />
+		<lang code="WSMenuItem_About_Tooltip" value="Opens the SidePanel that provides information about Game Imager." />
+		<lang code="WSMenuItem_AddResources_Text" value="Add Images" />
+		<lang code="WSMenuItem_AddResources_Tooltip" value="Opens the SidePanel for adding images to the Collection." />
+		<lang code="WSMenuItem_CloseProgram_Text" value="Close Game Imager" />
+		<lang code="WSMenuItem_CloseProgram_Tooltip" value="Closes Game Imager." />
+		<lang code="WSMenuItem_ColorChanger_Text" value="Color Changer" />
+		<lang code="WSMenuItem_ColorChanger_Tooltip" value="Shows the SidePanel for displaying and changing colors in the image." />
+		<lang code="WSMenuItem_Colors_Text" value="Colors" />
+		<lang code="WSMenuItem_Colors_Tooltip" value="Shows the SidePanel that displays the colors used in the image." />
+		<lang code="WSMenuItem_ConvertArchive_Text" value="Convert Collection" />
+		<lang code="WSMenuItem_ConvertArchive_Tooltip" value="Opens the SidePanel to convert a Collection to a different format." />
+		<lang code="WSMenuItem_DirectoryList_RightClick_OpenDirectory_Text" value="Open Directory" />
+		<lang code="WSMenuItem_DirectoryList_RightClick_OpenDirectory_Tooltip" value="Changes to the directory." />
+		<lang code="WSMenuItem_DirectoryList_RightClick_ParentDirectory_Text" value="Up to Parent Directory" />
+		<lang code="WSMenuItem_DirectoryList_RightClick_ParentDirectory_Tooltip" value="Changes to the parent directory." />
+		<lang code="WSMenuItem_DirectoryList_RightClick_ReadArchive_Normal_Text" value="Open Image" />
+		<lang code="WSMenuItem_DirectoryList_RightClick_ReadArchive_Normal_Tooltip" value="Opens the SidePanel that allows you to open a Collection." />
+		<lang code="WSMenuItem_DirectoryList_RightClick_ReadArchive_OpenWith_Text" value="Open With Plugin" />
+		<lang code="WSMenuItem_DirectoryList_RightClick_ReadArchive_OpenWith_Tooltip" value="Opens the SidePanel that allows you to open a Collection with a particular plugin." />
+		<lang code="WSMenuItem_DirectoryList_RightClick_Refresh_Text" value="Refresh Display" />
+		<lang code="WSMenuItem_DirectoryList_RightClick_Refresh_Tooltip" value="Reloads the current directory." />
+		<lang code="WSMenuItem_ExtractAllResources_Text" value="Extract All Images" />
+		<lang code="WSMenuItem_ExtractAllResources_Tooltip" value="Extracts all the images in the collection to your computer, as separate files." />
+		<lang code="WSMenuItem_ExtractResources_Text" value="Save Images" />
+		<lang code="WSMenuItem_ExtractResources_Tooltip" value="Save images to your computer." />
+		<lang code="WSMenuItem_ExtractSelectedResources_Text" value="Extract Selected Images" />
+		<lang code="WSMenuItem_ExtractSelectedResources_Tooltip" value="Extracts the selected images to your computer, as separate files." />
+		<lang code="WSMenuItem_FileListDrop_Add_Text" value="Add Images" />
+		<lang code="WSMenuItem_FileListDrop_Add_Tooltip" value="Add the images into the Collection." />
+		<lang code="WSMenuItem_FileListDrop_ReplaceCurrent_Text" value="Replace Image At Mouse Cursor" />
+		<lang code="WSMenuItem_FileListDrop_ReplaceCurrent_Tooltip" value="Replace the image with the file on your computer." />
+		<lang code="WSMenuItem_FileListDrop_Replace_Text" value="Replace Image" />
+		<lang code="WSMenuItem_FileListDrop_Replace_Tooltip" value="Replace the image with the file on your computer." />
+		<lang code="WSMenuItem_FileListView_Image_Text" value="Image View" />
+		<lang code="WSMenuItem_FileListView_Image_Tooltip" value="Changes the view to show the current image." />
+		<lang code="WSMenuItem_FileListView_Palette_Text" value="Palette View" />
+		<lang code="WSMenuItem_FileListView_Palette_Tooltip" value="Changes the view to show the colors in the image." />
+		<lang code="WSMenuItem_FileListView_Thumbnails_Text" value="Thumbnails View" />
+		<lang code="WSMenuItem_FileListView_Thumbnails_Tooltip" value="Changes the view to show thumbnails of all images in the Collection." />
+		<lang code="WSMenuItem_FileList_RightClick_ExtractResources_All_Text" value="Save All" />
+		<lang code="WSMenuItem_FileList_RightClick_ExtractResources_All_Tooltip" value="Saves all the images in the Collection to your computer." />
+		<lang code="WSMenuItem_FileList_RightClick_ExtractResources_Selected_Text" value="Save Selected" />
+		<lang code="WSMenuItem_FileList_RightClick_ExtractResources_Selected_Tooltip" value="Saves the selected images to your computer." />
+		<lang code="WSMenuItem_FileList_RightClick_ExtractResources_Text" value="Save Image" />
+		<lang code="WSMenuItem_FileList_RightClick_ExtractResources_Tooltip" value="Saves the image to your computer." />
+		<lang code="WSMenuItem_FileList_RightClick_RemoveResources_Text" value="Remove Images" />
+		<lang code="WSMenuItem_FileList_RightClick_RemoveResources_Tooltip" value="Removes the selected images from the Collection." />
+		<lang code="WSMenuItem_FileList_RightClick_SelectResources_All_Text" value="Select All" />
+		<lang code="WSMenuItem_FileList_RightClick_SelectResources_All_Tooltip" value="Selects all the images in the Collection" />
+		<lang code="WSMenuItem_FileList_RightClick_SelectResources_Inverse_Text" value="Select Inverse" />
+		<lang code="WSMenuItem_FileList_RightClick_SelectResources_Inverse_Tooltip" value="Selects the inverse images in the Collection" />
+		<lang code="WSMenuItem_FileList_RightClick_SelectResources_None_Text" value="Select None" />
+		<lang code="WSMenuItem_FileList_RightClick_SelectResources_None_Tooltip" value="Deselects all the images in the Collection" />
+		<lang code="WSMenuItem_Help_Text" value="General Help" />
+		<lang code="WSMenuItem_Help_Tooltip" value="Opens the SidePanel with Game Imager help." />
+		<lang code="WSMenuItem_Information_Text" value="Information" />
+		<lang code="WSMenuItem_Information_Tooltip" value="Opens the SidePanel that shows information about the current Collection and images." />
+		<lang code="WSMenuItem_NewArchive_Text" value="New Collection" />
+		<lang code="WSMenuItem_NewArchive_Tooltip" value="Creates a new Collection." />
+		<lang code="WSMenuItem_Options_Text" value="Options" />
+		<lang code="WSMenuItem_Options_Tooltip" value="Opens the SidePanel for changing the Game Imager settings." />
+		<lang code="WSMenuItem_Palette_Text" value="Colors" />
+		<lang code="WSMenuItem_Palette_Tooltip" value="Displays the colors in the image" />
+		<lang code="WSMenuItem_PluginList_Text" value="Plugin List" />
+		<lang code="WSMenuItem_PluginList_Tooltip" value="Opens the SidePanel that displays the plugins loaded by Game Imager." />
+		<lang code="WSMenuItem_ReadArchive_Normal_Text" value="Open Collection or Image" />
+		<lang code="WSMenuItem_ReadArchive_Normal_Tooltip" value="Opens the SidePanel that allows you to open a Collection." />
+		<lang code="WSMenuItem_ReadArchive_OpenWith_Text" value="Open With Plugin" />
+		<lang code="WSMenuItem_ReadArchive_OpenWith_Tooltip" value="Opens the SidePanel that allows you to open a Collection with a particular plugin." />
+		<lang code="WSMenuItem_RemoveResources_Text" value="Remove Images" />
+		<lang code="WSMenuItem_RemoveResources_Tooltip" value="Opens the SidePanel where you can remove images from the Collection." />
+		<lang code="WSMenuItem_ReplaceResources_Text" value="Replace Images" />
+		<lang code="WSMenuItem_ReplaceResources_Tooltip" value="Opens the SidePanel where you can replace images in the Collection with images on your computer." />
+		<lang code="WSMenuItem_SelectResources_All_Text" value="Select All" />
+		<lang code="WSMenuItem_SelectResources_All_Tooltip" value="Selects all the images in the ImageList" />
+		<lang code="WSMenuItem_SelectResources_Inverse_Text" value="Select Inverse" />
+		<lang code="WSMenuItem_SelectResources_Inverse_Tooltip" value="Selects the opposite images in the ImageList" />
+		<lang code="WSMenuItem_SelectResources_None_Text" value="Select None" />
+		<lang code="WSMenuItem_SelectResources_None_Tooltip" value="Deselects all the images in the ImageList" />
+		<lang code="WSMenuItem_WriteArchive_Text" value="Save Collection" />
+		<lang code="WSMenuItem_WriteArchive_Tooltip" value="Opens the SidePanel that allows you to save a Collection." />
+		<lang code="WSMenuItem_Zoom_100_Text" value="100%" />
+		<lang code="WSMenuItem_Zoom_100_Tooltip" value="Reset the zoom to 100%" />
+		<lang code="WSMenuItem_Zoom_10_Text" value="10%" />
+		<lang code="WSMenuItem_Zoom_10_Tooltip" value="Zoom to 10% of the original size" />
+		<lang code="WSMenuItem_Zoom_200_Text" value="200%" />
+		<lang code="WSMenuItem_Zoom_200_Tooltip" value="Zoom to 200% of the original size" />
+		<lang code="WSMenuItem_Zoom_25_Text" value="25%" />
+		<lang code="WSMenuItem_Zoom_25_Tooltip" value="Zoom to 25% of the original size" />
+		<lang code="WSMenuItem_Zoom_400_Text" value="400%" />
+		<lang code="WSMenuItem_Zoom_400_Tooltip" value="Zoom to 400% of the original size" />
+		<lang code="WSMenuItem_Zoom_50_Text" value="50%" />
+		<lang code="WSMenuItem_Zoom_50_Tooltip" value="Zoom to 50% of the original size" />
+		<lang code="WSMenuItem_Zoom_800_Text" value="800%" />
+		<lang code="WSMenuItem_Zoom_800_Tooltip" value="Zoom to 800% of the original size" />
+		<lang code="WSMenu_ExtractResources_Text" value="Extract..." />
+		<lang code="WSMenu_ExtractResources_Tooltip" value="Extract Menu" />
+		<lang code="WSMenu_FileList_RightClick_SelectResources_Text" value="Select Images" />
+		<lang code="WSMenu_FileList_RightClick_SelectResources_Tooltip" value="Selects images in the Collection." />
+		<lang code="WSMenu_File_Text" value="File" />
+		<lang code="WSMenu_File_Tooltip" value="File menu" />
+		<lang code="WSMenu_Help_Text" value="Help" />
+		<lang code="WSMenu_Help_Tooltip" value="Help menu" />
+		<lang code="WSMenu_Manipulate_Text" value="Manipulate" />
+		<lang code="WSMenu_Manipulate_Tooltip" value="Manipulate menu" />
+		<lang code="WSMenu_Preview_Text" value="Preview" />
+		<lang code="WSMenu_Preview_Tooltip" value="Preview menu" />
+		<lang code="WSMenu_ReadArchive_Text" value="Open..." />
+		<lang code="WSMenu_ReadArchive_Tooltip" value="Choices for opening a Collection" />
+		<lang code="WSMenu_Select_Text" value="Select" />
+		<lang code="WSMenu_Select_Tooltip" value="Select menu" />
+		<lang code="WSMenu_Tools_Text" value="Tools" />
+		<lang code="WSMenu_Tools_Tooltip" value="Tools menu" />
+		<lang code="WSMenu_View_Text" value="View" />
+		<lang code="WSMenu_View_Tooltip" value="View menu" />
+		<lang code="WSMenu_WriteArchive_Text" value="Save..." />
+		<lang code="WSMenu_WriteArchive_Tooltip" value="Choices for writing a Collection" />
+		<lang code="WSMenu_Zoom_Text" value="Zoom" />
+		<lang code="WSMenu_Zoom_Tooltip" value="Change the zoom of the image" />
+		<lang code="WSOptionGroupHolder_SidePanel_Options_OptionGroupHolder_Tooltip" value="This is where the options are displayed." />
+		<lang code="WSPalettePanel_SidePanel_Colors_PalettePanel_Tooltip" value="The colors used in the image." />
+		<lang code="WSPalettePanel_SidePanel_Palette_PalettePanel_Tooltip" value="The individual colors in the image" />
+		<lang code="WSPanel_Option_Appearance_CurrentLanguage_Label_Label" value="Current Language" />
+		<lang code="WSPanel_Option_Appearance_CurrentLanguage_Label_Tooltip" value="" />
+		<lang code="WSPanel_Option_Appearance_PluginListDisplayType_Label_Label" value="Plugin Lists Display Type" />
+		<lang code="WSPanel_Option_Appearance_PluginListDisplayType_Label_Tooltip" value="" />
+		<lang code="WSPanel_SidePanel_Colors_ColorTypes_Label_Label" value="Color Type" />
+		<lang code="WSPanel_SidePanel_Colors_ColorTypes_Label_Tooltip" value="The color type of the image." />
+		<lang code="WSPanel_SidePanel_Colors_CurrentColor_Label_Label" value="Selected Color" />
+		<lang code="WSPanel_SidePanel_Colors_CurrentColor_Label_Tooltip" value="The currently selected color." />
+		<lang code="WSPanel_SidePanel_Colors_Palette_Label_Label" value="Color Palette" />
+		<lang code="WSPanel_SidePanel_Colors_Palette_Label_Tooltip" value="The colors used in the image." />
+		<lang code="WSPanel_SidePanel_Colors_Tooltip" value="Displays and allows changes to the colors in the image." />
+		<lang code="WSPanel_SidePanel_DirectoryList_ControlsHolder_Tooltip" value="The chosen controls are shown here. Use the buttons at the bottom of the SidePanel to change the controls." />
+		<lang code="WSPanel_SidePanel_DirectoryList_ConvertPanel_Main_Label" value="Convert Image" />
+		<lang code="WSPanel_SidePanel_DirectoryList_ConvertPanel_Main_Tooltip" value="The controls for converting a Collection to a different format." />
+		<lang code="WSPanel_SidePanel_DirectoryList_ExportPanel_Main_Label" value="Extract Images" />
+		<lang code="WSPanel_SidePanel_DirectoryList_ExportPanel_Main_Tooltip" value="Controls for Extracting images to your computer." />
+		<lang code="WSPanel_SidePanel_DirectoryList_ModifyPanel_Main_Label" value="Modify Collection" />
+		<lang code="WSPanel_SidePanel_DirectoryList_ModifyPanel_Main_Tooltip" value="Controls for modifying Collections." />
+		<lang code="WSPanel_SidePanel_DirectoryList_PalettePanel_Main_Label" value="Open Palettes" />
+		<lang code="WSPanel_SidePanel_DirectoryList_PalettePanel_Main_Tooltip" value="The controls for opening color Palettes." />
+		<lang code="WSPanel_SidePanel_DirectoryList_ReadPanel_Main_Label" value="Open Images" />
+		<lang code="WSPanel_SidePanel_DirectoryList_ReadPanel_Main_Tooltip" value="The controls for opening a Collection." />
+		<lang code="WSPanel_SidePanel_DirectoryList_WritePanel_Main_Label" value="Save Collection" />
+		<lang code="WSPanel_SidePanel_DirectoryList_WritePanel_Main_Tooltip" value="The controls for saving a Collection." />
+		<lang code="WSPanel_SidePanel_Information_ArchiveTable_Label_Label" value="Current Image" />
+		<lang code="WSPanel_SidePanel_Information_ArchiveTable_Label_Tooltip" value="Information about the current Collection." />
+		<lang code="WSPanel_SidePanel_Information_PluginTable_Label_Label" value="Compatible Plugins" />
+		<lang code="WSPanel_SidePanel_Information_PluginTable_Label_Tooltip" value="The plugins that could be used to open this Collection." />
+		<lang code="WSPanel_SidePanel_Information_ResourceTable_Label_Label" value="Selected Images" />
+		<lang code="WSPanel_SidePanel_Information_ResourceTable_Label_Tooltip" value="Information about the selected images in the ImageList." />
+		<lang code="WSPanel_SidePanel_Information_Tooltip" value="Information about the current Collection and images." />
+		<lang code="WSPanel_SidePanel_Palette_Palette_Label_Label" value="Colors" />
+		<lang code="WSPanel_SidePanel_Palette_Palette_Label_Tooltip" value="The colors in the image" />
+		<lang code="WSRecentFileMenu_RecentFileMenu_Text" value="Recent Files" />
+		<lang code="WSRecentFileMenu_RecentFileMenu_Tooltip" value="Collections that were recently opened or saved." />
+		<lang code="WSRedoMenuItem_Empty_Tooltip" value="There are no tasks that can be redone." />
+		<lang code="WSRedoMenu_RedoMenu_Text" value="Redo..." />
+		<lang code="WSRedoMenu_RedoMenu_Tooltip" value="Redo a task that was undone." />
+		<lang code="WSScrollPane_FileListThumbnailScroll_Tooltip" value="Thumbnails of all images in the Collection." />
+		<lang code="WSScrollPane_Option_ToolbarButtons_ChoicesLabel_Label" value="Available Buttons" />
+		<lang code="WSScrollPane_Option_ToolbarButtons_ChoicesLabel_Tooltip" value="" />
+		<lang code="WSScrollPane_Option_ToolbarButtons_CurrentLabel_Label" value="Current Toolbar" />
+		<lang code="WSScrollPane_Option_ToolbarButtons_CurrentLabel_Tooltip" value="" />
+		<lang code="WSScrollPane_SidePanel_Options_Appearance_Label_Label" value="Appearance" />
+		<lang code="WSScrollPane_SidePanel_Options_Appearance_Label_Tooltip" value="Visual appearance settings" />
+		<lang code="WSScrollPane_SidePanel_Options_DescriptionField_Label_Label" value="Description" />
+		<lang code="WSScrollPane_SidePanel_Options_Directories_Label_Label" value="Directories" />
+		<lang code="WSScrollPane_SidePanel_Options_Directories_Label_Tooltip" value="The directories used to save files." />
+		<lang code="WSScrollPane_SidePanel_Options_General_Label_Label" value="General Settings" />
+		<lang code="WSScrollPane_SidePanel_Options_General_Label_Tooltip" value="General Game Imager settings" />
+		<lang code="WSScrollPane_SidePanel_Options_OpeningArchives_Label_Label" value="Opening Images" />
+		<lang code="WSScrollPane_SidePanel_Options_OpeningArchives_Label_Tooltip" value="Options for opening Collections." />
+		<lang code="WSScrollPane_SidePanel_Options_OptionGroupHolder_Label_Label" value="Options" />
+		<lang code="WSScrollPane_SidePanel_Options_Popups_Label_Label" value="Popup Messages" />
+		<lang code="WSScrollPane_SidePanel_Options_Popups_Label_Tooltip" value="Choose the popups that you want to display." />
+		<lang code="WSScrollPane_SidePanel_PluginList_PluginDescription_Label_Label" value="Plugin Description" />
+		<lang code="WSScrollPane_SidePanel_PluginList_PluginDescription_Label_Tooltip" value="The description of the selected plugin." />
+		<lang code="WSScrollPane_SidePanel_PluginList_Plugins_Label_Label" value="Plugins" />
+		<lang code="WSScrollPane_SidePanel_PluginList_Plugins_Label_Tooltip" value="The plugins of the selected type." />
+		<lang code="WSSidePanelHolder_SidePanelHolder_Tooltip" value="The SidePanel, which displays the controls for reading, writing, and manipulating Collections." />
+		<lang code="WSSlider_GradientColorSliderBar_Tooltip" value="Change the main color value." />
+		<lang code="WSSplashDialog_ColorPalettes" value="Loading Color Palettes" />
+		<lang code="WSStatusBar_StatusBar_Text" value="" />
+		<lang code="WSStatusBar_StatusBar_Tooltip" value="The StatusBar. Move the mouse over the window to display further information here." />
+		<lang code="WSTextField_GradientColorChooserBlueValue_Tooltip" value="The blue value of the current color." />
+		<lang code="WSTextField_GradientColorChooserGreenValue_Tooltip" value="The green value of the current color." />
+		<lang code="WSTextField_GradientColorChooserHexValue_Tooltip" value="The hex representation of the current color." />
+		<lang code="WSTextField_GradientColorChooserRedValue_Tooltip" value="The red value of the current color." />
+		<lang code="WSTextField_InterfaceColors_Label" value="Interface Colors" />
+		<lang code="WSTextField_InterfaceColors_Tooltip" value="The color of the interface." />
+		<lang code="WSTextField_LanguageDirectory_Label" value="Languages" />
+		<lang code="WSTextField_LanguageDirectory_Tooltip" value="The directory where the languages can be found." />
+		<lang code="WSTextField_MaxNumberOfFiles2_Label" value="Max Number of Images (small Collections)" />
+		<lang code="WSTextField_MaxNumberOfFiles2_Tooltip" value="The maximum allowed number of images, for small Collections. Used when auto-detecting the type of Collection." />
+		<lang code="WSTextField_MaxNumberOfFiles4_Label" value="Max Number of Images (large Collections)" />
+		<lang code="WSTextField_MaxNumberOfFiles4_Tooltip" value="The maximum allowed number of images, for large Collections. Used when auto-detecting the type of Collection." />
+		<lang code="WSTextField_NumberOfRecentFiles_Label" value="Number of Recent Files" />
+		<lang code="WSTextField_NumberOfRecentFiles_Tooltip" value="The number of recent files to remember." />
+		<lang code="WSTextField_NumberOfUndoTasks_Label" value="Number of Undos" />
+		<lang code="WSTextField_NumberOfUndoTasks_Tooltip" value="The number of undos to remember" />
+		<lang code="WSTextField_SelectedFont_Label" value="Current Font" />
+		<lang code="WSTextField_SelectedFont_Tooltip" value="The current font." />
+		<lang code="WSTextField_SidePanel_DirectoryList_ConvertFilenameField_Label" value="Save as... (filename)" />
+		<lang code="WSTextField_SidePanel_DirectoryList_ConvertFilenameField_Tooltip" value="The Collection will be saved with this name." />
+		<lang code="WSTextField_SidePanel_DirectoryList_ExportFilenameField_Label" value="Extract Directory" />
+		<lang code="WSTextField_SidePanel_DirectoryList_ExportFilenameField_Tooltip" value="The directory where the images will be extracted to." />
+		<lang code="WSTextField_SidePanel_DirectoryList_PaletteFilenameField_Label" value="Save as... (filename)" />
+		<lang code="WSTextField_SidePanel_DirectoryList_PaletteFilenameField_Tooltip" value="The palette will be saved to this file." />
+		<lang code="WSTextField_SidePanel_DirectoryList_WriteFilenameField_Label" value="Save as... (filename)" />
+		<lang code="WSTextField_SidePanel_DirectoryList_WriteFilenameField_Tooltip" value="The Collection will be saved with this name." />
+		<lang code="WSTextField_TempDirectory_Label" value="Temporary Directory" />
+		<lang code="WSTextField_TempDirectory_Tooltip" value="The directory where temporary files are stored." />
+		<lang code="WSToolBar_MainToolBar_Tooltip" value="The toolbar, containing buttons for performing common tasks." />
+		<lang code="WSUndoMenuItem_Empty_Tooltip" value="There are no tasks that can be undone." />
+		<lang code="WSUndoMenu_UndoMenu_Text" value="Undo..." />
+		<lang code="WSUndoMenu_UndoMenu_Tooltip" value="Undo a task." />
+
+		<lang code="PopupDialog_WSImagePrompts_AskForDimensions_Title" value="Choose Dimensions" />
+		<lang code="WSButton_WSImagePrompt_AskForDimensions_CANCEL_Text" value="Cancel" />
+		<lang code="WSButton_WSImagePrompt_AskForDimensions_OK_Text" value="OK" />
+		<lang code="WSLabel_WSImagePrompt_AskForDimensions_Message_Text" value="What are the dimensions for the image?" />
+		<lang code="WSTextField_WSImagePrompt_AskForDimensions_Height_Label" value="Height" />
+		<lang code="WSTextField_WSImagePrompt_AskForDimensions_Width_Label" value="Width" />
+		
+		<lang code="PopupDialog_WSImagePrompts_AskForType_Title" value="Choose Format" />
+		<lang code="WSButton_WSImagePrompt_AskForType_CANCEL_Text" value="Cancel" />
+		<lang code="WSButton_WSImagePrompt_AskForType_OK_Text" value="OK" />
+		<lang code="WSLabel_WSImagePrompt_AskForType_Message_Text" value="What format should the image be saved as?" />
+		<lang code="WSTextField_WSImagePrompt_AskForType_Chooser_Label" value="Type" />
+		
+		<lang code="WSLabel_SidePanel_DirectoryList_ExtractPanel_Basic_Text" value="Extracting Images is only available in the Full Version." />
+		<lang code="WSLabel_SidePanel_DirectoryList_ModifyPanel_Basic_Text" value="Modifying Collections is only available in the Full Version." />
+		<lang code="WSLabel_SidePanel_DirectoryList_WritePanel_Basic_Text" value="Saving Collections is only available in the Full Version." />
+
+		<lang code="WSCheckBox_DoubleClickAddsFiles_Text" value="Double-clicking adds Image to the Collection" />
+		<lang code="WSCheckBox_DoubleClickAddsFiles_Tooltip" value="When double-clicking on a Collection in the directory list, the Image will be added to the current Collection (ticked), or will be opened as a new Collection (unticked)" />
+		<lang code="WSCheckBox_LoadPaletteReplacesCurrent_Text" value="Opening a Palette replaces current Palette" />
+		<lang code="WSCheckBox_LoadPaletteReplacesCurrent_Tooltip" value="When opening a palette, the current palette will be replaced with the new one (ticked), or the palette will just be added to the Palette List (unticked)" />
+
+		<lang code="WSCheckBox_Popup_ReadPalette_FileNotAPalette_Show_Text" value="File Is Not A Palette" />
+		<lang code="WSCheckBox_Popup_ReadPalette_FileNotAPalette_Show_Tooltip" value="Show a popup message when the selected file is not a Palette" />
+		<lang code="WSLabel_ReadPalette_FileNotAPalette_Text" value="The selected file is not a Palette" />
+		
+		<lang code="WSCheckBox_Popup_ReadPalette_NoPluginsFound_Show_Text" value="No Plugin To Open Palette" />
+		<lang code="WSCheckBox_Popup_ReadPalette_NoPluginsFound_Show_Tooltip" value="Show a popup message when Game Imager was unable to open a Palette" />
+		<lang code="WSLabel_ReadPalette_FileNotAPalette_Text" value="No plugins were able to open the Palette" />
+		
+		<lang code="WSCheckBox_Popup_ReadPalette_ReadFailed_Show_Text" value="Opening Palette Failed" />
+		<lang code="WSCheckBox_Popup_ReadPalette_ReadFailed_Show_Tooltip" value="There was a problem when opening a Palette." />
+		<lang code="WSCheckBox_Popup_ReadPalette_ReadSucceeded_Show_Text" value="Opening Palette Succeeded" />
+		<lang code="WSCheckBox_Popup_ReadPalette_ReadSucceeded_Show_Tooltip" value="The Palette was successfully opened." />
+		<lang code="WSCheckBox_Popup_ReadPalette_ReadWithPluginFailed_Show_Text" value="Open Palette with Plugin Failed" />
+		<lang code="WSCheckBox_Popup_ReadPalette_ReadWithPluginFailed_Show_Tooltip" value="Show a popup message when an Palette file couldn't be opened with a given plugin." />
+		<lang code="WSCheckBox_Popup_ReadPalette_ReadWithPluginSucceeded_Show_Text" value="Opening Palette With Plugin Succeeded" />
+		<lang code="WSCheckBox_Popup_ReadPalette_ReadWithPluginSucceeded_Show_Tooltip" value="The Palette was successfully opened." />
+		<lang code="WSLabel_ReadPalette_ReadFailed_Text" value="The Palette could not be opened." />
+		<lang code="WSLabel_ReadPalette_ReadSucceeded_Text" value="Palette opened successfully." />
+		<lang code="WSLabel_ReadPalette_ReadWithPluginFailed_Text" value="The selected plugin was not able to open the Palette." />
+		<lang code="WSLabel_ReadPalette_ReadWithPluginSucceeded_Text" value="Palette opened successfully." />
+
+		<lang code="WSCheckBox_Popup_ReadPalette_NoPluginsFound_Show_Text" value="No Plugin To Open Palette" />
+		<lang code="WSCheckBox_Popup_ReadPalette_NoPluginsFound_Show_Tooltip" value="Show a popup message when Game Imager was unable to open a Palette" />
+		<lang code="WSLabel_ReadPalette_NoPluginsFound_Text" value="No plugins were able to open the Palette" />
+		
+		<lang code="WSButton_PaletteList_Tooltip" value="Displays the loaded color Palettes" />
+		<lang code="WSMenuItem_PaletteList_Text" value="Palettes" />
+		<lang code="WSMenuItem_PaletteList_Tooltip" value="Displays the loaded color Palettes" />
+		<lang code="WSMenuItem_ReadPalette_Text" value="Open Palette" />
+		<lang code="WSMenuItem_ReadPalette_Tooltip" value="Allows you to open a color Palette" />
+		
+		<lang code="WSButton_PaletteList_ChangePalette_Text" value="Change Palette" />
+		<lang code="WSButton_PaletteList_ChangePalette_Tooltip" value="Changes the color Palette of the selected Images to the selected Palette above." />
+		<lang code="WSButton_SidePanel_DirectoryList_ReadPaletteButton_Tooltip" value="Opens a color Palette" />
+		<lang code="WSList_PaletteList_List_Tooltip" value="The list of loaded color palettes" />
+		<lang code="WSScrollPane_PaletteList_ListLabel_Label" value="Color Palettes" />
+		<lang code="WSScrollPane_PaletteList_ListLabel_Tooltip" value="The list of loaded color palettes" />
+		
+		<lang code="WSCheckBox_Popup_PaletteList_ChangedPalette_Show_Text" value="Color Palette Was Changed" />
+		<lang code="WSCheckBox_Popup_PaletteList_ChangedPalette_Show_Tooltip" value="Show a popup message when the color Palette of an Image was changed." />
+		<lang code="WSLabel_PaletteList_ChangedPalette_Text" value="The Color Palette was Changes" />
+		
+		<lang code="" value="" />
+		
+	</texts>
+	
+</languagePack>

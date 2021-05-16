@@ -1,0 +1,14 @@
+<WSPanel code="WSImagePrompt_AskForType" layout="BorderLayout" showBorder="true">
+	
+	<WSLabel code="WSImagePrompt_AskForType_Message" position="NORTH" />
+	
+	<WSPanel position="CENTER" opaque="false">
+		<WSComboBox code="WSImagePrompt_AskForType_Chooser" position="NORTH" />
+	</WSPanel>
+	
+	<WSPanel position="SOUTH" layout="GridLayout" rows="1" columns="2" opaque="false">
+		<WSButton code="WSImagePrompt_AskForType_OK" />
+		<WSButton code="WSImagePrompt_AskForType_CANCEL" />
+	</WSPanel>
+	
+</WSPanel>

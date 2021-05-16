@@ -1,0 +1,9 @@
+<WSPanel code="SidePanel_PaletteList" layout="BorderLayout">
+	
+	<WSScrollPane position="CENTER" code="PaletteList_ListLabel" showLabel="true" showBorder="true">
+		<WSList code="PaletteList_List" />
+	</WSScrollPane>
+
+	<WSButton code="PaletteList_ChangePalette" position="SOUTH" />
+	
+</WSPanel>

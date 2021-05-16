@@ -1,0 +1,15 @@
+<WSPanel code="WSImagePrompt_AskForDimensions" layout="BorderLayout">
+	
+	<WSLabel code="WSImagePrompt_AskForDimensions_Message" position="NORTH" />
+	
+	<WSPanel position="CENTER" layout="GridLayout" rows="2" columns="1">
+		<WSTextField showLabel="true" code="WSImagePrompt_AskForDimensions_Width" />
+		<WSTextField showLabel="true" code="WSImagePrompt_AskForDimensions_Height" />
+	</WSPanel>
+	
+	<WSPanel position="SOUTH" layout="GridLayout" rows="1" columns="2">
+		<WSButton code="WSImagePrompt_AskForDimensions_OK" />
+		<WSButton code="WSImagePrompt_AskForDimensions_CANCEL" />
+	</WSPanel>
+	
+</WSPanel>

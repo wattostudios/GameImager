@@ -1,0 +1,41 @@
+<WSPanel code="SidePanel_Options_Popups_Main" layout="BorderLayout">
+	
+	<WSScrollPane showLabel="true" code="SidePanel_Options_Popups_Label" position="CENTER" repository="false">
+		<WSPanel>
+			<WSPanel layout="GridLayout" position="NORTH" rows="30" columns="1" code="SidePanel_Options_Popups_Checkboxes">				
+				<WSOptionCheckBox code="WSLabel_AddFiles_FilesAdded_Text" setting="Popup_AddFiles_FilesAdded_Show" />
+				<WSOptionCheckBox code="WSLabel_AddFiles_NoFilesToAdd_Text" setting="Popup_AddFiles_NoFilesToAdd_Show" />
+				<WSOptionCheckBox code="WSLabel_FileListViewChanged_Text" setting="Popup_FileListViewChanged_Show" />
+				<WSOptionCheckBox code="WSLabel_FullVersionOnly_Text" setting="Popup_FullVersionOnly_Show" />
+				<WSOptionCheckBox code="WSLabel_ModifyArchive_NotWritable_Text" setting="Popup_ModifyArchive_NotWritable_Show" />
+				<WSOptionCheckBox code="WSLabel_Options_OptionsSaved_Text" setting="Popup_Options_OptionsSaved_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadArchive_FileDoesNotExist_Text" setting="Popup_ReadArchive_FileDoesNotExist_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadArchive_FileNotAnArchive_Text" setting="Popup_ReadArchive_FileNotAnArchive_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadArchive_MakeNewArchive_Text" setting="Popup_ReadArchive_MakeNewArchive_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadArchive_NoPluginsFound_Text" setting="Popup_ReadArchive_NoPluginsFound_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadArchive_ReadFailed_Text" setting="Popup_ReadArchive_ReadFailed_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadArchive_ReadSucceeded_Text" setting="Popup_ReadArchive_ReadSucceeded_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadArchive_ReadWithPluginFailed_Text" setting="Popup_ReadArchive_ReadWithPluginFailed_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadArchive_ReadWithPluginSucceeded_Text" setting="Popup_ReadArchive_ReadWithPluginSucceeded_Show" />
+				<WSOptionCheckBox code="WSLabel_RemoveFiles_FilesRemoved_Text" setting="Popup_RemoveFiles_FilesRemoved_Show" />
+				<WSOptionCheckBox code="WSLabel_RemoveFiles_NoFilesToRemove_Text" setting="Popup_RemoveFiles_NoFilesToRemove_Show" />
+				<WSOptionCheckBox code="WSLabel_SelectResources_All_Text" setting="Popup_SelectResources_All_Show" />
+				<WSOptionCheckBox code="WSLabel_SelectResources_Inverse_Text" setting="Popup_SelectResources_Inverse_Show" />
+				<WSOptionCheckBox code="WSLabel_SelectResources_None_Text" setting="Popup_SelectResources_None_Show" />
+				<WSOptionCheckBox code="WSLabel_SidePanelChanged_Text" setting="Popup_SidePanelChanged_Show" />
+				<WSOptionCheckBox code="WSLabel_ExportFiles_ArchiveSaved_Text" setting="Popup_ExportFiles_ArchiveSaved_Show" />
+				<WSOptionCheckBox code="WSLabel_WriteArchive_ArchiveSaved_Text" setting="Popup_WriteArchive_ArchiveSaved_Show" />
+				<WSOptionCheckBox code="WSLabel_WriteArchive_FilenameMissing_Text" setting="Popup_WriteArchive_FilenameMissing_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadPalette_FileNotAPalette_Text" setting="Popup_ReadPalette_FileNotAPalette_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadPalette_NoPluginsFound_Text" setting="Popup_ReadPalette_NoPluginsFound_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadPalette_ReadFailed_Text" setting="Popup_ReadPalette_ReadFailed_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadPalette_ReadSucceeded_Text" setting="Popup_ReadPalette_ReadSucceeded_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadPalette_ReadWithPluginFailed_Text" setting="Popup_ReadPalette_ReadWithPluginFailed_Show" />
+				<WSOptionCheckBox code="WSLabel_ReadPalette_ReadWithPluginSucceeded_Text" setting="Popup_ReadPalette_ReadWithPluginSucceeded_Show" />
+				<WSOptionCheckBox code="WSLabel_PaletteList_ChangedPalette_Text" setting="Popup_PaletteList_ChangedPalette_Show" />
+
+			</WSPanel>
+		</WSPanel>
+	</WSScrollPane>
+	
+</WSPanel>

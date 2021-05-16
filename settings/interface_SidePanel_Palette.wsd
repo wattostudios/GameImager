@@ -1,0 +1,13 @@
+<WSPanel code="SidePanel_Palette" layout="BorderLayout">
+	
+	<WSPanel code="SidePanel_Palette_Palette_Label" showBorder="true" showLabel="true" position="CENTER">
+		<WSScrollPane showBorder="false" showBackground="false" opaque="false">
+			<WSPalettePanel code="SidePanel_Palette_PalettePanel" position="CENTER" />
+		</WSScrollPane>
+	</WSPanel>
+	
+	<WSPanel position="SOUTH">
+		<WSGradientColorChooser code="SidePanel_Palette_GradientPanel" position="CENTER" />
+	</WSPanel>
+	
+</WSPanel>

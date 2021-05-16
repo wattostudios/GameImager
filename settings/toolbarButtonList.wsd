@@ -1,0 +1,56 @@
+<WSList>
+	<WSToolBarSeparator orientation="vertical" />
+	
+			<WSButton code="NewArchive" opaque="false" showText="false" />
+			<WSComboButton code="ReadArchive_Normal" opaque="false" repository="false">
+				<WSButton code="ReadArchive_Normal" opaque="false" showText="false" />
+				<WSPopupMenu visible="false">
+					<WSMenuItem code="ReadArchive_Normal" opaque="false" />
+					<WSMenuItem code="ReadArchive_OpenWith" opaque="false" />
+					<WSMenuItem code="ReadPalette" opaque="false" />
+				</WSPopupMenu>
+			</WSComboButton>
+			<WSButton code="WriteArchive" opaque="false" showText="false" />
+
+			<WSButton code="AddResources" opaque="false" showText="false" />
+			<WSButton code="RemoveResources" opaque="false" showText="false" />
+
+			<WSButton code="Palette" opaque="false" showText="false" />
+			<WSButton code="PaletteList" opaque="false" showText="false" />
+			<WSComboButton code="Zoom_100" opaque="false" repository="false">
+				<WSButton code="Zoom_100" opaque="false" showText="false" />
+				<WSPopupMenu opaque="false" visible="false">
+					<WSMenuItem code="Zoom_10" opaque="false" />
+					<WSMenuItem code="Zoom_25" opaque="false" />
+					<WSMenuItem code="Zoom_50" opaque="false" />
+					<WSMenuItem code="Zoom_100" opaque="false" />
+					<WSMenuItem code="Zoom_200" opaque="false" />
+					<WSMenuItem code="Zoom_400" opaque="false" />
+					<WSMenuItem code="Zoom_800" opaque="false" />
+				</WSPopupMenu>
+			</WSComboButton>
+
+			<WSComboButton code="ExtractSelectedResources" opaque="false" repository="false">
+				<WSButton code="ExtractSelectedResources" opaque="false" showText="false" />
+				<WSPopupMenu visible="false">
+					<WSMenuItem code="ExtractSelectedResources" opaque="false" />
+					<WSMenuItem code="ExtractAllResources" opaque="false" />
+				</WSPopupMenu>
+			</WSComboButton>
+
+			<WSComboButton code="SelectResources_All" opaque="false" repository="false">
+				<WSButton code="SelectResources_All" showText="false" />
+				<WSPopupMenu>
+					<WSMenuItem code="SelectResources_All" />
+					<WSMenuItem code="SelectResources_None" />
+					<WSMenuItem code="SelectResources_Inverse" />
+				</WSPopupMenu>
+			</WSComboButton>
+
+			<WSButton code="Options" opaque="false" showText="false" />
+			<WSButton code="Information" opaque="false" showText="false" />
+
+			<WSButton code="Help" opaque="false" showText="false" />
+			<WSButton code="About" opaque="false" showText="false" />
+	
+</WSList>

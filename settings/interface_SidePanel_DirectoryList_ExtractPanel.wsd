@@ -1,0 +1,13 @@
+<WSPanel code="SidePanel_DirectoryList_ExportPanel_Main" showLabel="true" showBorder="true" layout="BorderLayout">
+	
+	<WSTextField code="SidePanel_DirectoryList_ExportFilenameField" showLabel="true" opaque="false" position="NORTH" />
+	<WSPanel code="SidePanel_DirectoryList_ExportButtonsPanel" opaque="false" layout="BorderLayout" position="CENTER" >
+		<WSComboBox code="SidePanel_DirectoryList_ExportPluginList" position="CENTER" opaque="false" />
+		<WSPanel layout="GridLayout" position="EAST" rows="1" columns="2" opaque="false">
+			<WSButton code="SidePanel_DirectoryList_ExtractResourcesButton" showText="false" />
+			<WSButton code="SidePanel_DirectoryList_ExtractAllResourcesButton" showText="false" />
+		</WSPanel>
+	</WSPanel>
+	
+	
+</WSPanel>

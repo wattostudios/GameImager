@@ -1,0 +1,15 @@
+<plugins>
+	<prefixes>
+		<prefix type="DirectoryList">DirectoryList_</prefix>
+		<prefix type="SidePanel">SidePanel_</prefix>
+		<prefix type="FileList">FileListPanel_</prefix>
+		<prefix type="Archive">Plugin_</prefix>
+		<prefix type="Palette">Palette_</prefix>
+		<prefix type="Options">Options_</prefix>
+	</prefixes>
+	<locations>
+		<location type="zip">GameImager.jar</location>
+		<location type="directory"></location>
+		<location type="directory">plugins</location>
+	</locations>
+</plugins>
